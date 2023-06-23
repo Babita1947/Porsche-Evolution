@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper
+{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    perspective: 10px;
+    position: relative;
+ 
+}
+.container{
+    position:relative;
+    display:flex;
+    height: 100%;
+}
+section{
+    position: fixed;
+}
+.head1{
+    font-size: 16pt;
+    padding-top: 7%;
+    padding-left: 10%;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro',sans-serif;
+    letter-spacing: 1px;
+    position:center;
+
+} 
+.s0{
+    color:#B13C3C;
+}
+.para1{
+    padding-left: 10%;
+    
+    font-family: 'Source Sans Pro',sans-serif;
+    color: rgba(113, 113, 113, 1);
+}
+.vol{
+    color: rgba(113, 113, 113, 1);
+    font-size: 15pt;
+    font-weight:light;
+}
+.bg h2{
+    font-size:22pt;
+    color: white;
+    width: 100%; 
+    text-align: center;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    
+    padding-top:80px;
+}
+.bg h3{
+    font-size: 22pt;
+   
+    width:100%;
+    text-align: center;
+    font-family:'Source Sans Pro', sans-serif;
+    
+    padding-top:80px;
+
+}
+.head3,.head5,.head8,.head11{
+    color:#313131;
+}
+.head4,.head6,.head7,.head9,.head10,.head12{
+    color:white;
+}
+#s1,#s3,#s6,#s9{
+     
+     font-size:larger;
+     color:#313131;
+     justify-content: center;
+     text-align: center;
+     margin: 2% 10% 2% 10%;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+#s2,#s4,#s5,#s7,#s8,#s10{
+    
+    font-size: larger;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 10% 2% 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.para{
+    font-size: 11pt;
+    text-align:center;
+    
+}
+
+.text{
+    color:white;
+    width: 100%;
+    font-size: 12pt;
+    margin-top: 25px;
+    text-align:center;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.head{
+    position:absolute;
+    
+    font-size: 3.5rem;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 600;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.bg1{
+    background-image: url(./porschevolution.com-images-12e5mn/landingpage.jpg);
+}
+.bg2{
+    background-image:url(./porschevolution.com-images-12e5mn/porsche.jpg) ;
+}
+.bg3{
+    background-image:url(./porschevolution.com-images-12e5mn/1930.jpg);
+}
+.bg4{
+    background-image: url(./porschevolution.com-images-12e5mn/1940.jpg);
+}
+.bg5{
+    background-image: url(./porschevolution.com-images-12e5mn/1950.jpg);
+}
+.bg6{
+    background-image: url(./porschevolution.com-images-12e5mn/1960.jpg);
+}
+.bg7{
+    background-image:url(./porschevolution.com-images-12e5mn/1970.jpg);
+}
+.bg8{
+    background-image: url(./porschevolution.com-images-12e5mn/1980.jpg);
+}
+.bg9{
+    background-image: url(./porschevolution.com-images-12e5mn/1990.jpg);
+}
+.bg10{
+    background-image: url(./porschevolution.com-images-12e5mn/2000.jpg);
+}
+.bg11{
+    background-image: url(./porschevolution.com-images-12e5mn/2010.jpg) ;
+}
+.bg12{
+    background-image: url(./porschevolution.com-images-12e5mn/2020.jpg);
+}
